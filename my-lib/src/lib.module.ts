@@ -3,15 +3,19 @@ import { CommonModule } from '@angular/common';
 import { FooComponent } from './foo/foo.component';
 import { BarService } from './bar/bar.service';
 
+import { PanelModule } from 'primeng/primeng';
+
 @NgModule({
   imports: [
-    CommonModule
+    CommonModule,
+    PanelModule
   ],
   declarations: [
     FooComponent
   ],
   exports: [
-    FooComponent
+    FooComponent,
+    PanelModule
   ]
 })
 export class MyLibModule {

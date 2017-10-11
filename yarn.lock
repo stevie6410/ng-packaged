@@ -4467,6 +4467,10 @@ pretty-error@^2.0.2:
     renderkid "^2.0.1"
     utila "~0.4"
 
+primeng@^4.2.2:
+  version "4.2.2"
+  resolved "https://registry.npmjs.org/primeng/-/primeng-4.2.2.tgz#b76116c24505ddcad7f52a4bba76b584d8e7c527"
+
 private@~0.1.5:
   version "0.1.7"
   resolved "https://registry.yarnpkg.com/private/-/private-0.1.7.tgz#68ce5e8a1ef0a23bb570cc28537b5332aba63ef1"
